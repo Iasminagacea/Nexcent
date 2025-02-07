@@ -1,0 +1,22 @@
+{
+  "cards": [
+    {
+      "image": "D:/IASMINA/Practica/PROIECT FIGMA 3/figma3/public/Images/caring/image18.png",
+      "description": "Creating Streamlined Safeguarding Processes with OneRen",
+      "read_more": "Readmore",
+      "arrow": "D:/IASMINA/Practica/PROIECT FIGMA 3/figma3/public/Images/Customers_images/arrow_right_green.png"
+    },
+    {
+      "image": "D:/IASMINA/Practica/PROIECT FIGMA 3/figma3/public/Images/caring/image19.png",
+      "description": "What are your safeguarding responsibilities and how can\nyou manage them?",
+      "read_more": "Readmore",
+      "arrow": "D:/IASMINA/Practica/PROIECT FIGMA 3/figma3/public/Images/Customers_images/arrow_right_green.png"
+    },
+    {
+      "image": "D:/IASMINA/Practica/PROIECT FIGMA 3/figma3/public/Images/caring/image20.png",
+      "description": "Revamping the Membership Model with Triathlon\nAustralia",
+      "read_more": "Readmore",
+      "arrow": "D:/IASMINA/Practica/PROIECT FIGMA 3/figma3/public/Images/Customers_images/arrow_right_green.png"
+    }
+  ]
+}
