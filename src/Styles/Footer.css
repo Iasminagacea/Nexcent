@@ -264,3 +264,126 @@
     width: 20px;
     height: 20px;
   }
+
+
+
+  @media screen and (max-width: 600px) {
+    .footer-demo {
+      height: auto;
+      padding: 40px 20px;
+    }
+
+    .demo-button {
+      margin-left: -30px;
+    }
+  
+    .footer-title {
+      width: 100%;
+      height: auto;
+      font-size: 28px;
+      line-height: 36px;
+      padding: 0 20px;
+      text-align: center;
+      margin-left: -38px;
+    }
+  
+  
+    /* Hide original text when using ::after content */
+    .footer-title span {
+      display: none;
+    }
+  }
+
+
+  /*Responsive Footer*/
+
+  @media screen and (max-width: 600px) {
+    .footer {
+      flex-direction: column;
+      padding: 40px 20px;
+      width: 100%;
+      height: 660px;
+      min-height: 600px;
+      gap: 40px;
+      margin: 0;
+    }
+  
+    .company-info {
+      width: 100%;
+      align-items: center;
+      text-align: center;
+      margin-left: -35px;
+    }
+  
+    .logo {
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+  
+    .copyright {
+      width: 100%;
+      text-align: center;
+      margin-left: 20px;
+    }
+  
+    .social-links {
+      justify-content: center;
+      width: 100%;
+      margin-top: 20px;
+      margin-left: 30px;
+    }
+  
+    .footer-links {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 100%;
+      gap: 20px;
+      margin-left: 20px;
+      margin-top: 30px
+    }
+  
+    .col {
+      width: 45%;
+      align-items: flex-start;
+      text-align: left;
+    }
+
+    /* Make the email input column full width */
+    .col:last-child {
+      order: 3; /* Pushes this section to the bottom */
+      margin-top: 60px;
+      margin-bottom: 20px;
+      padding-top: 20px;
+      margin-left: -60px;
+    }
+  
+    .col h4 {
+      margin-bottom: 15px;
+      width: 100%;
+      text-align: left;
+    }
+  
+    .col ul {
+      width: 100%;
+      align-items: flex-start;
+    }
+  
+    .col ul li {
+      text-align: left;
+    }
+  
+    .email-input {
+      width: 100%;
+      max-width: 300px;
+      margin: 0 auto;
+      margin-left: -35px;
+      margin-top: -20px;
+    }
+  
+    .send-button {
+      right: -35px;
+      transform: translateY(-50%);
+    }
+  }

@@ -57,7 +57,7 @@ function Home() {
       </section>
 
       <section className="community-section">
-        <h2 className="section-title">Manage your entire community<br></br> in a single system</h2>
+        <h2 className="section-title2">Manage your entire community<br></br> in a single system</h2>
         <p className="description">Who is Nextcent suitable for?</p>
       </section>
 
@@ -171,7 +171,7 @@ function Home() {
 
       <section className="community-updates">
   <div className="caring-section">
-    <h2 className="section-title">Caring is the new marketing</h2>
+    <h2 className="section-title3">Caring is the new marketing</h2>
     <p className="description">
       The Nexcent blog is the best place to read about the latest membership insights,<br></br>
       trends and more. See who's joining the community,
