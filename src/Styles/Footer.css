@@ -230,6 +230,7 @@
     width: 255px;
     height: 30px; /* Reduced height from 40px to 30px */
     position: relative;
+    margin-top: var(--spacing-xs);
   }
   
   .email-input input {
@@ -251,13 +252,14 @@
 /* src/Styles/Footer.css */
 .send-button {
     position: absolute;
-    right: -35px;
+    right: calc(var(--spacing-xl) * -1.1);
     top: 27px; /* Adjusted from 50% to 60% to move it down */
     transform: translateY(-60%); /* Adjusted to match the new top value */
     background: none;
     border: none;
     cursor: pointer;
     padding: 0;
+    transform: translateY(-50%);
   }
   
   .send-button img {
@@ -379,11 +381,11 @@
       max-width: 300px;
       margin: 0 auto;
       margin-left: -35px;
-      margin-top: -20px;
+      margin-top: calc(var(--spacing-lg) * -1);
     }
   
     .send-button {
-      right: -35px;
+      right: calc(var(--spacing-xl) * -1.1);
       transform: translateY(-50%);
     }
   }
